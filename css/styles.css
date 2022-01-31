@@ -7,7 +7,7 @@
 @import "no-mobile.css";
 
 /* html - css */
-@import "screen/login.css";
+@import "screen/index.css";
 @import "screen/friends.css";
 @import "screen/chats.css";
 @import "screen/find.css";
