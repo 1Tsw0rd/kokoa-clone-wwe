@@ -1,0 +1,44 @@
+.s1-chats-link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.s1-chats__room {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.s1-chats__room {
+  width: 95%;
+}
+.s1-chats-myinfo__last-message {
+  padding: 5px 10px;
+  font-size: 13px;
+  color: var(--main-color-gray);
+}
+
+.s1-chats__message {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.s1-chats__message-time {
+  font-size: 13px;
+  color: var(--main-color-gray);
+}
+.s1-chats__message-count {
+  background-color: tomato;
+  height: 15px;
+  width: 15px;
+  margin-top: 8px;
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

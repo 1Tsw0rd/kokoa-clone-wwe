@@ -1,0 +1,104 @@
+/* Section 1 - myinfo */
+.s1-myinfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.s1-myinfo__phone {
+  padding: 10px 5px 0px 10px;
+  font-size: 13px;
+  color: var(--main-color-gray);
+}
+
+.s1-myinfo__phone i {
+  color: red;
+  padding-left: 5px;
+}
+
+.s1-myinfo__icon {
+  padding-left: 35px;
+}
+
+/* Section 2 - s2-myinfo-icons */
+/* 반응형으로 하고 싶었는데 안되네요...*/
+.s2-myinfo-icons {
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box; /* 안되네요..*/
+}
+
+.s2-myinfo-icons__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#s2-myinfo-icons__icon-2 {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#s2-myinfo-icons__icon-2 .s2-myinfo-icons__icon {
+  margin: 0px 20px;
+}
+
+.s2-myinfo-icons__icon i {
+  margin: 15px;
+  font-size: 50px;
+}
+
+.s2-myinfo-icons__icon span {
+  font-size: 15px;
+  color: var(--main-color-gray);
+}
+
+/* Section 3 - s3-suggestions */
+
+.s3-suggestions {
+  margin: 40px 10px 10px 10px;
+
+  border-top: 1px solid var(--main-color-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.s3-suggestions h6 {
+  padding: 10px 0px 20px 0px;
+  font-weight: 600;
+}
+
+.s3-suggestions__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s3-suggestions__info-area {
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.s3-suggestions__info-area img {
+  height: 60px;
+  width: 60px;
+  border-radius: 15px;
+  padding-bottom: 10px;
+}
+
+.s3-suggestions__info-area span {
+  font-size: 13px;
+  color: var(--main-color-gray);
+}

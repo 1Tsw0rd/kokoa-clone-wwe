@@ -1,0 +1,129 @@
+.chat-body {
+  background-color: #abc1d1;
+}
+.chat-header h1 {
+  margin-left: 75px;
+}
+
+.s1-chat-day {
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s1-chat-day__lastday {
+  background-color: gray;
+  padding: 10px;
+  border-radius: 15px;
+  opacity: 0.8;
+  color: white;
+  font-size: 12px;
+}
+
+.s2-chat-area__friend,
+.s2-chat-area__me-talk {
+  margin: 20px 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.s2-chat-area__friend-photo {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+}
+
+.s2-chat-area__friend-talk {
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.s2-chat-area__friend-talk-name {
+  padding-bottom: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  color: gray;
+}
+
+.s2-chat-area__friend-talk-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.s2-chat-area__friend-talk-content-word {
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+}
+
+.s2-chat-area__friend-talk-content-date {
+  font-size: 10px;
+  margin: 10px 0px 0px 5px;
+  color: gray;
+}
+
+.s2-chat-area__me-talk {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.s2-chat-area__me-talk-content-word {
+  background-color: #fee500;
+  padding: 5px;
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+}
+
+.s2-chat-area__me-talk-content-date {
+  font-size: 10px;
+  margin: 10px 5px 0px 0px;
+  color: gray;
+}
+
+.chat-keyboard {
+  background-color: white;
+  position: fixed;
+  height: 50%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Animation */
+@keyframes chatappear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.s2-chat-area {
+  opacity: 0;
+  animation: chatappear 0.5s ease-in-out forwards;
+}
+
+.chat-main section:nth-child(2) {
+  animation-delay: 1s;
+}
+.chat-main section:nth-child(3) {
+  animation-delay: 2s;
+}
+.chat-main section:nth-child(4) {
+  animation-delay: 3s;
+}
+
+.chat-main section:nth-child(5) {
+  animation-delay: 4s;
+}

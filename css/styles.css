@@ -1,0 +1,71 @@
+@import "reset.css";
+@import "variables.css";
+
+/* common - css */
+@import "status-bar.css";
+@import "nav-bar.css";
+@import "no-mobile.css";
+
+/* html - css */
+@import "screen/login.css";
+@import "screen/friends.css";
+@import "screen/chats.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* status-bar iframe */
+.styles-status-bar__iframe {
+  height: 30px;
+  width: 100%;
+}
+
+/* nav-bar iframe */
+.styles-nav-bar__iframe {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
+/* title base */
+.styles-title-base {
+  height: 40px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.styles-title-base h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.styles-title-base div span {
+  padding-left: 20px;
+}
+
+/* profile info */
+.styles-myinfo {
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.styles-myinfo__img {
+  height: 60px;
+  width: 60px;
+  border-radius: 20px;
+}
+
+.styles-myinfo__name {
+  padding: 0px 10px;
+  font-weight: 600;
+}

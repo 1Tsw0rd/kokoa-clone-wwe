@@ -1,0 +1,30 @@
+.status-bar {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.status-bar div {
+  width: 33%;
+}
+
+.status-bar__wifi span {
+  margin: 0px 5px 0px 10px;
+}
+.status-bar__time {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__battery {
+  margin-right: 10px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-bar__time .fa-fire,
+.status-bar__battery .fa-fist-raised {
+  color: red;
+  margin: 0px 5px;
+}
